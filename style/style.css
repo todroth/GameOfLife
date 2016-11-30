@@ -1,0 +1,63 @@
+html, body {
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 100%;
+    font-family : Arial, sans-serif;
+}
+
+.page {
+    width : 100%;
+    height : 100%;
+    margin : 0 auto;
+    overflow-x : hidden;
+}
+
+.game {
+    width : 100%;
+    height : 80%;
+    display : table;
+    border-collapse : collapse;
+    table-layout : fixed;
+}
+
+.config {
+    width : 80%;
+    height : 20%;
+    background : #eeeeee;
+    float : left;
+}
+
+.generationCountOuter {
+    width : 20%;
+    height : 20%;
+    float : right;
+    box-sizing : border-box;
+    display : table;
+}
+
+.generationCountInner {
+    text-align : center;
+    vertical-align : middle;
+    display : table-cell;
+    font-size : 3em;
+}
+
+.row {
+    display : table-row;
+}
+
+.cell {
+    display : table-cell;
+    box-sizing : border-box;
+    border : 1px solid black;
+    margin-bottom : -4px; /* Magic Number */
+}
+
+.dead {
+    background : white;
+}
+
+.living {
+    background : black;
+}
